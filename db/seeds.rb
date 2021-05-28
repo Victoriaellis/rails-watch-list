@@ -20,5 +20,5 @@ movie_list.each do |movie|
   # puts movie["overview"]
   # puts movie["poster_path"]
   # puts movie["vote_average"]
- Movie.create!(title: movie["title"], overview: movie["overview"], poster_url: movie["poster_path"], rating: movie["vote_average"])
+  Movie.create!(title: movie["title"], overview: movie["overview"], poster_url: movie["poster_path"], rating: movie["vote_average"])
 end
